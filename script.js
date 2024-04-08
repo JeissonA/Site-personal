@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-document.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('load', function() {
     var audio = document.getElementById('audio1');
     audio.play();
 });
