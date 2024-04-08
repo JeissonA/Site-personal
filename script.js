@@ -20,3 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Agregar un event listener para el clic en el botón de imagen
     toggleButton.addEventListener('click', toggleMute);
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    var audio = document.getElementById('audio1');
+    audio.play();
+});
