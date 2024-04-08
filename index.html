@@ -3,9 +3,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="shortcut icon" href="/img/Atrade.png" type="image/x-icon">
     <title>ANDERSDEV</title>
 </head>
-<body onclick="PlayAudio">
+<body>
     <section class="showcase"> <!--Sección principal-->
     <header>
         <img class="logo" src="/img/Atrade.png" alt="">
@@ -45,11 +46,15 @@
     </header>
     <video src="/video/millonarios.mp4" muted loop autoplay
     ></video>
-    <audio id="audio1"autoplay controls loop>
-
-     <source src="/audio/prayer in C.mp3" type="audio/mp3">
-
-     </audio>
+    <div class="contenedor">
+        <audio id="audio1" autoplay controls loop>
+            <source src="/audio/prayer in C.mp3" type="audio/mp3">
+            Tu navegador no soporta la etiqueta de audio.
+        </audio>
+        <img onclick="PlayAudio" id="toggleButton" src="/img/mute.png" alt="Botón de Mute">
+    </div>
+    <script src="script.js"></script>
+    
     <div class="overlay">
     <div class="text">
         <h2>ANDERSDEV</h2>
@@ -174,7 +179,7 @@
             </div>
           </button>   
     </div>
-   
+    
     
     <script>
         function PlayAudio() {
