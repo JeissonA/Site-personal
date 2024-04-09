@@ -6,20 +6,23 @@
     <link rel="shortcut icon" href="/img/Atrade.png" type="image/x-icon">
     <title>ANDERSDEV</title>
 </head>
-<body onclick="PlayAudio">
+<body>
     <section class="showcase"> <!--Sección principal-->
     <header>
         <img class="logo" src="/img/Atrade.png" alt="">
         <div  class="container">
             <nav>
                 <ul>
-                    <li>Inicio</li>
-                    <li>Servicios</li>
+                  <a href="#">
+                    <li>inicio</li></a>
+                    <a href="/services.html">
+                    <li>Servicios</li></a>
                     <li>Productos</li>
                     <li>Clientes</li>
                     <li>Contactos</li>
                 </ul>
             </nav>
+            </div>
             <div class="card">
                 <div class="imge"><img class="CEO" src="/img/CEO & PRESIDENTE.jpg"width="50px" height="50px" alt="imge">
                   <div class="Usericon"></div>
@@ -31,18 +34,16 @@
               
                 <div class="social-media">
                       <a href="https://walink.co/f3f96e">
-                          <img class="Whatsapp" src="/img/Whatsapp ICON.png" width="50px" height="50px" alt="">
-                          <a href="#">
-                            <img class="X" src="/img/X ICON.png" width="40px" height="40px" alt="">
-                            <a href="#">
-                                <img class="Facebook" src="/img/FACEBOOK ICON.png" width="50px" height="50px" alt="">
-                                <a href="#">
-                                    <img class="Insta" src="/img/IG ICON.png" width="50px" height="50px" alt="">
-                                    <a href="#">
-                                        <img class="Insta" src="/img/Tik Tok.png" width="50px" height="50px" alt="">
-                          
-                      
-                  </div>
+                          <img class="Whatsapp" src="/img/Whatsapp ICON.png" width="50px" height="50px" alt=""></a>
+                          <a href="https://twitter.com/ChavitaJei90699">
+                            <img class="X" src="/img/X ICON.png" width="40px" height="40px" alt=""></a>
+                            <a href="https://www.facebook.com/profile.php?id=61551628726610">
+                                <img class="Facebook" src="/img/FACEBOOK ICON.png" width="50px" height="50px" alt=""></a>
+                                <a href="https://www.instagram.com/soy_alvich/?next=%2F">
+                                    <img class="Insta" src="/img/IG_ICON.png" width="40px" height="40px" alt=""></a>
+                                    <a href="https://www.tiktok.com/@soy_alvich?_t=8lO56iNb1Pi&_r=1">
+                                        <img class="Tiktok" src="/img/Tik Tok.png" width="50px" height="50px" alt=""></a>
+                          </div>
     </header>
     <video src="/video/millonarios.mp4" muted loop autoplay
     ></video>
@@ -53,7 +54,7 @@
         </audio>
         <img  id="toggleButton" src="/img/mute.png" alt="Botón de Mute">
     </div>
-    <script src="script.js"></script>
+    
     
     <div class="overlay">
     <div class="text">
@@ -180,12 +181,7 @@
           </button>   
     </div>
     
-    
-    <script>
-        function PlayAudio() {
-            document.getElementById("audio1").play();
-        }
-    </script>
+    <script src="script.js"></script>
     <script>
         // Obtener el botón por su id
         var boton = document.getElementById("miboton");
@@ -196,6 +192,6 @@
             window.location.href = "https://walink.co/f3f96e";
     });
     </script>
-
+    
 </body>
 </html>
