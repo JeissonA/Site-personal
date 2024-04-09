@@ -516,21 +516,21 @@ button {
     .card .ceo{
       height: 80px;
       width: 80px;
-      left: -35px;
+      left: -65px;
       top: 30px;
 
     }
     .Description{
       position: absolute;
       margin-top: 100px;
-      margin-left: 100px;
+      margin-left: 115px;
     }
     .card .social-media{
       align-items: center;
       list-style: none;
       display:list-item;
       position: absolute;
-      margin-left: 40px;      
+      margin-left: 60px;      
       margin-top: 140px;
     }
     .Insta{
