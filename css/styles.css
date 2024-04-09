@@ -465,6 +465,7 @@ button {
       display: inherit;
       position: relative;
       left: 20px;
+      z-index: 4;
     }
 
     .overlay{
@@ -516,7 +517,7 @@ button {
     .card .ceo{
       height: 80px;
       width: 80px;
-      left: -65px;
+      left: -50px;
       top: 30px;
 
     }
