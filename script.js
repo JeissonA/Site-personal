@@ -10,10 +10,10 @@ document.addEventListener('DOMContentLoaded', function() {
     function toggleMute() {
         if (audio.muted) {
             audio.muted = false; // Desmutear si ya está mutado
-            toggleButton.src = '/img/unmute.png'; // Cambiar la imagen a "unmute.png"
+            toggleButton.src = '/img/mute.png'; // Cambiar la imagen a "unmute.png"
         } else {
             audio.muted = true; // Mutear si no está mutado
-            toggleButton.src = '/img/mute.png'; // Cambiar la imagen a "mute.png"
+            toggleButton.src = '/img/unmute.png'; // Cambiar la imagen a "mute.png"
         }
     }
 
