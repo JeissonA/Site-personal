@@ -464,7 +464,7 @@ button {
     .container{
       display: inherit;
       position: relative;
-      left: 50px;
+      left: 10px;
     }
 
     .overlay{
@@ -547,7 +547,7 @@ button {
     
     
     .text{
-      left: 50px;
+      left: 0px;
       font-size: 10px;
     }
     .text h2{
