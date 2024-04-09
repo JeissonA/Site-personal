@@ -453,15 +453,17 @@ button {
   
   
     .showcase{
-      padding: 100px;
-      margin: 50px;
+      
+      display: flexbox;
       text-align: center;
       
       
     }
 
     .container{
+      display: inherit;
       position: relative;
+      left: 50px;
     }
 
     .overlay{
@@ -544,6 +546,7 @@ button {
     
     
     .text{
+      left: 50px;
       font-size: 10px;
     }
     .text h2{
