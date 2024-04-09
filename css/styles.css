@@ -34,18 +34,19 @@ header .logo{
     align-items: center;
     justify-content: center;
 }
+
 nav ul li{
-    list-style: none;
-    display: inline-grid;
-    padding: 15px 35px;
-    margin: 10px;
-    font-size: 18px;
-    font-weight: 500;
-    color: white;
-    cursor: pointer;
-    position: relative;
-    z-index: 2;
-    transition: color 0.4s;
+  list-style: none;
+  display: inline-grid;
+  padding: 15px 35px;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  transition: color 0.4s;
 }
 
 nav ul li::after{ 
@@ -63,7 +64,7 @@ opacity: 0;
 }
 
 nav ul li:hover{
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 nav ul li:hover::after{
@@ -279,7 +280,9 @@ z-index: 2;
   .Insta{
     position: relative;
   }
-
+.tiktok{
+  position: relative;
+}
 #Audio1{
   display: none;
     position: absolute;
@@ -305,6 +308,7 @@ body, html {
   cursor: pointer;
   z-index: 9999;
 }
+
 
 
 /*BOTON DE LA PG PRINCIPAL*/
@@ -480,16 +484,77 @@ button {
       z-index: 9999;
       position: absolute;
       margin: -70px;
-      margin-top: -310px;
+      margin-top: -390px;
       width: 100px;
       height: 100px;
 
 
     }
-    .card{
-     display: none;
+    .card {
+     
+      left: 0px;
+      position: absolute;
+      top:800px;
+      width: 452px;
+      height: 370px;
+      background: rgb(0, 0, 0);
+      box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.333);
+    }
+    
+    .imge .Usericon{
+      position: relative;
+      margin-bottom: 100px;
+    margin-top: -70px;
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
     }
 
+    .imge .UserName{
+      margin-top: -120px;
+    margin-left: 150px;
+    
+    }
+
+    .imge .Id{
+      margin-left: 150px;
+      margin-top: 0px;
+    }
+    
+    .card .ceo{
+      height: 80px;
+      width: 80px;
+      left: -66px;
+      top: 30px;
+
+    }
+    .Description{
+      position: absolute;
+      margin-top: 100px;
+      margin-left: 150px;
+    }
+    .card .social-media{
+      
+      list-style: none;
+      display:list-item;
+      position: absolute;
+      margin-left: 70px;      
+      margin-top: 150px;
+    }
+    .Insta{
+      height: 38px;
+      width:40px;
+      top: 1px;
+    }
+    
+    }
+    .tiktok{
+      top: 5px;
+    }
+   
+    
+    
     .text{
       font-size: 10px;
     }
+  
