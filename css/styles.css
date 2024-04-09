@@ -453,7 +453,8 @@ button {
   
   
     .showcase{
-      
+      padding: auto;
+      margin: auto;
       display: flexbox;
       text-align: center;
       
