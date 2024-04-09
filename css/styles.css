@@ -4,7 +4,12 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+#background{
+    background-size: cover; /* Cubre toda el área disponible */
+    background-position: center; /* Centra la imagen de fondo */
+    height: 100vh; /* Establece la altura del fondo como el 100% del viewport height */
+}
+}
 header{
     position: absolute;
     top: 0;
