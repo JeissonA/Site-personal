@@ -45,7 +45,18 @@
                                         <img class="Tiktok" src="/img/Tik Tok.png" width="50px" height="50px" alt=""></a>
                           </div>
     </header>
-    <video id="background" src="/video/millonarios.mp4" muted loop autoplay></video>
+    <style>
+      #video-background {
+            position: fixed; /* Fija el video en la ventana del navegador */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Cubre toda el área disponible */
+            z-index: -999; /* Coloca el video detrás del contenido */
+        }
+    </style>
+    <video  src="/video/millonarios.mp4" muted loop autoplay id="video-background"></video>
     <div class="contenedor">
         <audio id="audio1" autoplay controls loop>
             <source src="/audio/prayer in C.mp3" type="audio/mp3">
